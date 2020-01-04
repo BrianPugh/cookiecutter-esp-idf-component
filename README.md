@@ -27,6 +27,11 @@ The prompts are described in more detail as below.
 This cookiecutter performs the following actions or sets up to allow you to perform
 the following actions:
 
+## License
+
+The MIT license will automatically be added to your repo. You many manually change
+this.
+
 ## Git
 
 Git will be initialized and all the files will be commited indicating 
@@ -63,3 +68,20 @@ I recommend adding the alias to your `~/.bashrc`
 ```
 alias bumpversion="bump2version"
 `
+
+Component versioning information will be available in your component's header 
+file as:
+
+```
+{{cookiecutter.component_var_name | upper}}_VERSION_MAJOR
+{{cookiecutter.component_var_name | upper}}_VERSION_MINOR
+{{cookiecutter.component_var_name | upper}}_VERSION_PATCH
+```
+
+For example,
+
+```
+MY_COMPONENT_VERSION_MAJOR
+MY_COMPONENT_VERSION_MINOR
+MY_COMPONENT_VERSION_PATCH
+```

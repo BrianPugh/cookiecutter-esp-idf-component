@@ -10,6 +10,11 @@
 extern "C" {
 #endif
 
+/* These version numbers are handled automatically via bump2version */
+static uint8_t {{cookiecutter.component_var_name | upper}}_VERSION_MAJOR = 0;
+static uint8_t {{cookiecutter.component_var_name | upper}}_VERSION_MINOR = 0;
+static uint8_t {{cookiecutter.component_var_name | upper}}_VERSION_PATCH = 0;
+
 /* Declare functions here */
 
 #ifdef __cplusplus

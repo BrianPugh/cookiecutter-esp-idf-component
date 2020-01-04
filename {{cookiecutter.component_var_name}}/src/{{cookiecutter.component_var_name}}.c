@@ -2,6 +2,6 @@
 
 #include "esp_log.h"
 
-#include "{{cookiecutter.component_var_name}}"
+#include "{{cookiecutter.component_var_name}}.h"
 
-static const char TAG[] = "{{cookiecutter.component_var_name}}";
+//static const char TAG[] = "{{cookiecutter.component_var_name}}";

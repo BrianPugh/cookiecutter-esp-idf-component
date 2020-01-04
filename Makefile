@@ -6,7 +6,7 @@ test:
 	cookiecutter --no-input --overwrite-if-exists .
 	cd my_component; \
 			make defconfig; \
-			make tests
+			make tests -j15
 
 install:
 	pip3 install -r requirements.txt
