@@ -11,7 +11,7 @@ Next, we will use `cookiecutter` and Jolt's cookiecutter app template to
 generate a jolt application project.
 
 ```
-cookiecutter -c v0.1.0 git@github.com:BrianPugh/cookiecutter-esp-idf-component.git
+cookiecutter -c v0.1.1 git@github.com:BrianPugh/cookiecutter-esp-idf-component.git
 ```
 
 Follow the onscreen prompts; pressing "enter" will use the default value.
