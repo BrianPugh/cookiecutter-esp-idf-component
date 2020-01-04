@@ -4,4 +4,4 @@
 
 #include "{{cookiecutter.component_var_name}}.h"
 
-//static const char TAG[] = "{{cookiecutter.component_var_name}}";
+// static const char TAG[] = "{{cookiecutter.component_var_name}}";

@@ -1,10 +1,10 @@
 #ifndef {{cookiecutter.component_var_name | upper}}_H__
 #define {{cookiecutter.component_var_name | upper}}_H__
 
-#include <stdint.h>
-#include <stddef.h>
-#include <stdarg.h>
 #include "sdkconfig.h"
+#include "stdarg.h"
+#include "stddef.h"
+#include "stdint.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -18,7 +18,7 @@ static uint8_t {{cookiecutter.component_var_name | upper}}_VERSION_PATCH = 0;
 /* Declare functions here */
 
 #ifdef __cplusplus
-} // extern "C"
+}  // extern "C"
 #endif
 
 #endif  // Guard
