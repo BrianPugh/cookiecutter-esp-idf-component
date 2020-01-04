@@ -2,5 +2,5 @@
     "full_name": "Bob Smith",
     "component_name": "My Component", 
     "component_var_name": "{{ cookiecutter.component_name|lower|replace(' ', '_')|replace('-', '_')|replace('+','_')|replace('=', '_') }}",
-    "git_repo": "https://github.com/USER/{{cookiecutter.component_var_name}}"  
+    "git_repo": "https://github.com/USER/{{cookiecutter.component_var_name}}.git"  
 }
