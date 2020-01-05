@@ -1,4 +1,11 @@
 
+# Who is this for?
+
+If you want to make a reusable component (library) for the ESP32, this repo
+will generate the appropriate project structure, as well as fill out as much
+boilerplate as possible. This could save you an hour or two of error-prone 
+tedious work when starting a project.
+
 # Usage
 
 First, make sure the python dependencies are installed:
